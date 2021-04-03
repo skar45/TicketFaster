@@ -4,6 +4,7 @@ import Link from 'next/link'
 const LandingPage = ({currentUser, tickets}) => {
 
     const showTicket = (id) => {
+        //needs to be fixed
         //Router.push(`/`)
     }
     
