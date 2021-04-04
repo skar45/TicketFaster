@@ -6,7 +6,7 @@ export default ({req})=>{
         //We are in the server
         //Requests should be made to ingress-nginx
          return axios.create({
-             baseURL: 'http://ticket-faster.xyz',
+             baseURL: 'http://ticket-faster.xyz/',
              headers: req.headers
          })
     } else {
